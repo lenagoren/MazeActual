@@ -164,7 +164,7 @@ public class Maze {
 
     // a test client
     public static void main(String[] args) {
-        int N = 10;
+        int N = 50;
         Maze maze = new Maze(N);
         StdDraw.show(0);
         maze.draw();
